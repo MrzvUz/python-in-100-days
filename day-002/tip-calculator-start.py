@@ -16,6 +16,8 @@ def bill_calculator():
 
             sub_total = tip / 100 * user_bill + user_bill
             total = round(sub_total / people, 2)
+            total = "{:.2f}".format(total)
+            
 
             print(f"It is ${total} for one/each person.\n\nThank you for dining with us!")
         except:
