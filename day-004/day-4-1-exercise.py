@@ -22,6 +22,14 @@ Tails'''
 
 import random
 
+random_int = random.randint(0, 10) # returns random integer numbers.
+random_rand = random.random()      # returns random floating numbers between 0 and 1.
+random_flt = random.uniform(1, 10) # returns random floating numbers over 1.
+
+print(random_int)
+print(random_rand)
+print(random_flt)
+
 random_side = random.randint(0, 1)
 if random_side == 1:
   print("Heads")
