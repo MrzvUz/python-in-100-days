@@ -30,6 +30,8 @@ print(random_int)
 print(random_rand)
 print(random_flt)
 
+
+# Heads or Tails exercise.
 random_side = random.randint(0, 1)
 if random_side == 1:
   print("Heads")
