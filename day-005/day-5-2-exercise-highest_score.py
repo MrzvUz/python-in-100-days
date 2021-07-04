@@ -29,13 +29,6 @@ for n in range(0, len(student_scores)):
 print(student_scores)
 # 🚨 Don't change the code above 👆
 
-#Write your code below this row 👇
-# max_score = 0
-# for score in student_scores:
-#     if score == max_score:
-#         max_score == score
-# print(max_score)
-
 
 # Solution for max value:
 max_score = 0
